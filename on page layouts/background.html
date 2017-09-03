@@ -14,7 +14,7 @@
 
 <style>
   
-body, h2 {
+body, h2, h3, p {
 
   text-align: center;
   padding: 10px;
@@ -24,8 +24,28 @@ body, h2 {
 
 }
     
+@media (min-width: 1000px) { 
 
+  #main-container {
+            background-color: pink;
+            width: 60%;} }
 
+  #title {
+    padding-top: 100px;
+    color: red;
+
+  }
+
+  .title {
+    width: 100%;    
+    background-image: url("https://unsplash.it/1600/500/?blur");
+    background-image: 
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+    height: 400px;
+
+  }
 
  #locations {
       background-image: linear-gradient( 135deg, #FFA8A8 10%, #FCFF00 100%);  
@@ -38,7 +58,7 @@ body, h2 {
               background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%); 
       
       vertical-align: middle;
-      height: 100px;
+      
 
                 }
 
@@ -51,23 +71,27 @@ body, h2 {
         }
 
 
-
+ 
 
 
 </style>
 
   <body>
-    <h1>HTML Basic Template with Bootstrap 4 preloaded</h1>
+   
+   <div class="title"> <h1 id="title">HTML Basic Template with Bootstrap 4 preloaded</h1> </div>
   
 
 
-<div class="container-fluid">
+<div class="container-fluid" id="main-container">
+
 
 
     <div class="col">
 
      <div id="founded">
-          <h2 id="founded"> Founded January 2017</h2> 
+          <h2 id="founded"> Founded in January 2017 <br /> </h2>
+          <h3> after a long Uber ride from Los Angles to Orange County, California. Conclusion of the long ride was that quality web analytics should be available as SaaS to small and medium size busineeses. There are many analytics tools, we belive opportunity lies in the utlization of the data.</p>
+        </h3>
         </div>
     
     </div>
@@ -78,7 +102,7 @@ body, h2 {
 
     <div id="locations">
                 <h2 id="head_office"> Head Office: Bidkin India </h2> 
-                <h3 id="other_locations"> Team members based in Aurangabad, Pune, Mumbai, Bangalore, Boston & Melbourne </h3> 
+                <h3 id="other_locations"> MangoBlogger team members work remotely from Aurangabad, Pune, Mumbai, Bangalore, Boston & Melbourne. </h3> 
         </div>
 
     
@@ -90,19 +114,12 @@ body, h2 {
 
     <div id="specialities">
                 <h2> MangoBlogger Specialities</h2>
-                <p> Google Analytics | Google Tag Manager | Tableau | DOMO | Goolge Data Studio | A/B Testing  cxkvjnasldvnas'ldknvsl'dk</p> 
+                <h3> Google Analytics | Google Tag Manager | Tableau | DOMO | Goolge Data Studio | SEO | A/B Testing | Personalization </h3>
         </div>
     
     
   </div>
 
-
-
-       
-
-
-        
-        
 
 
 </div>
