@@ -1,0 +1,153 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+.custom-html-widget {color: white;}
+
+.col-md-offset-2 {margin: 1px;}
+
+.col-md-8 {width:100%;}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {width: 33.33%;}
+
+p, ol, ul, .entry__excerpt,  {color: black;}
+
+.card {height: auto;}
+
+.hestia-bottom-footer-content {display: none;}
+
+
+.jp-relatedposts-post-a, input, .jp-relatedposts-headline, .customize-unpreviewable, a {color: deeppink; }
+
+	.footer-distributed{
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	text-align: justify;
+	*margin-top: 80px;
+}
+
+ 
+
+#mc_embed_signup
+{font:40px "Roboto Slab","Times New Roman",serif; width:80%;}
+
+label {color: black; padding-top: 20px;}
+
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: teal;
+    }
+}
+
+@media (min-width:992px)
+	{
+	.col-md-4 {width: 50%;}
+}
+
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+   
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+
+
+
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-github:hover {
+    background-color: #6e5494;
+}
