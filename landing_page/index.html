@@ -187,6 +187,14 @@
         font-size: 150px;
     }
   }
+  .navbar-brand {
+  padding: 0px; /* firefox bug fix */
+  }
+  .navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+  }
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -199,7 +207,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a href="#myPage"><img src="res/logo.png" class="navbar-nav" width="120px" height="50px"></a>
+     <a href="#myPage" class="push-4"><img src="res/logo.png" class="navbar-brand" width="120px" height="50px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
